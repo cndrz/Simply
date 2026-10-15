@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F5F6F3" />
+    <title>Simply</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="top">
+        <h1>Simply</h1>
+        <nav aria-label="Main">
+          <a href="#/" data-route="tasks">Tasks</a>
+          <a href="#/calendar" data-route="calendar">Calendar</a>
+        </nav>
+      </header>
+      <main>
+        <section id="view-tasks" aria-label="Tasks"></section>
+        <section id="view-calendar" aria-label="Calendar" hidden></section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
